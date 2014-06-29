@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 html,
 body {
   margin: 0;
@@ -17,4 +19,21 @@ body {
   display: block;
   margin: 0 auto;
   height:900px;
+}
+
+#header{
+  display: block;
+  width:100%;
+  margin: 20px auto;
+}
+#header h1{
+  color: #C13832;
+  font-size: 84px;
+  font-weight: bold;
+  font-family: 'Droid Arabic Kufi', serif;
+  letter-spacing: -0.05em;
+  font-size: 58px;
+  margin: 0 auto;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+  width: 100%;
 }
