@@ -20,7 +20,7 @@ body {
   margin: 0 auto;
   position: relative;
 }
-#todayis{
+#todayis {
   color: #404040;
   font-size: 14px;
   font-weight: bold;
@@ -52,7 +52,7 @@ body {
   margin: 0 auto;
   width: 100%;
 }
-#header #long-description{
+#header #long-description {
   color: #404040;
   font-size: 21px;
   font-family: 'Droid Arabic Kufi', serif;
@@ -81,13 +81,13 @@ body {
 .webmaker {
   background-image: url("https://mozorg.cdn.mozilla.net/media/img/styleguide/identity/webmaker/usage-logo.png");
 }
-.marketplace{
+.marketplace {
   background-image: url("https://mozorg.cdn.mozilla.net/media/img/styleguide/identity/marketplace/usage-logo-bag.png");
 }
-.mdn{
+.mdn {
   background-image: url("http://blog.seanmartell.com/wp-content/uploads/2013/10/logo_0014_80.png");
 }
-.marketplace{
+.marketplace {
   background-image: url("https://mozorg.cdn.mozilla.net/media/img/styleguide/identity/marketplace/usage-logo-bag.png");
 }
 #item #title {
@@ -99,7 +99,7 @@ body {
   font-family: 'Droid Arabic Kufi', serif;
   font-size: 25px;
 }
-#call-to-action{
+#call-to-action {
   position: absolute;
   top: 0;
   left: 54px;
@@ -109,7 +109,7 @@ body {
   font-size: 25px;
   text-decoration: none;
 }
-#call-to-ation:hover{
+#call-to-ation:hover {
   text-decoration: underline;
 }
 /* progress stuff */
@@ -148,17 +148,47 @@ body {
   background: #1997e6;
   border-radius: 1px;
 }
-
-#event-details-1{
+#event-details-1 {
   background-color: #C1423D;
   width: 100%;
   display: block;
   padding: 10px 0;
 }
-
-#event-details-1 p{
+#event-details-1 p {
   color: white;
   color: white;
   font-family: 'Droid Arabic Kufi', serif;
   font-size: 25px;
+}
+#event-details-1 #dashboard {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+}
+#event-details-1 #dashboard #sharing-element {
+  width: 128px;
+  height: 160px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+}
+#event-details-1 #dashboard #sharing-element #title {
+  color: white;
+  font-size: 13px;
+  font-family: 'Droid Arabic Kufi', serif;
+  position: absolute;
+  bottom: 0px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+.evt-facebook {
+  background-image: url("Facebook-Flat.png");
+}
+.evt-twitter {
+  background-image: url("Twitter-Flat.png");
+}
+.evt-irc {
+
 }
