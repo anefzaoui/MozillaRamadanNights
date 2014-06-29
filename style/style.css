@@ -18,6 +18,15 @@ body {
   width: 900px;
   display: block;
   margin: 0 auto;
+  position: relative;
+}
+#todayis{
+  color: #404040;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Droid Arabic Kufi', serif;
+  letter-spacing: -0.05em;
+  float: right;
 }
 #header {
   display: block;
