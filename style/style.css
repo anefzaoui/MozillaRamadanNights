@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-html,
+ html,
 body {
   margin: 0;
   padding: 0;
@@ -8,27 +8,24 @@ body {
   background: #fff;
   color: #333;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif;
+  background-color: #F5F1E8;
 }
 #outer-wrapper {
   position: relative;
   border-top: 2px solid #FFF;
-  background: url('bg-gradient-sand.png') repeat-x scroll 0% 0%, url('bg-sand.png') repeat scroll 0% 0%, none repeat scroll 0% 0% #F5F1E8;
 }
 #wrapper {
   width: 900px;
   display: block;
   margin: 0 auto;
-  height:900px;
 }
-
-#header{
+#header {
   display: block;
-  width:100%;
+  width: 100%;
   margin: 0 auto 20px;
 }
-#header h1{
+#header h1 {
   color: #C13832;
-  font-size: 84px;
   font-weight: bold;
   font-family: 'Droid Arabic Kufi', serif;
   letter-spacing: -0.05em;
@@ -36,4 +33,87 @@ body {
   margin: 0 auto;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
   width: 100%;
+}
+#header p {
+  color: #404040;
+  font-size: 34px;
+  font-family: 'Droid Arabic Kufi', serif;
+  letter-spacing: -0.05em;
+  margin: 0 auto;
+  width: 100%;
+}
+#project-dash {
+  background-color: #FFFFFF;
+  width: 100%;
+  display: block;
+  padding: 10px 0;
+}
+#item {
+  width: calc(100% - 10px);
+  height: 64px;
+  background-repeat: no-repeat;
+  background-position: center right 10px;
+  margin: 10px auto;
+  padding: 5px 0;
+  background-size: 64px auto;
+  position: relative;
+  background-color: rgb(3, 138, 204);
+  border-radius: 6px;
+}
+.webmaker {
+  background-image: url("https://mozorg.cdn.mozilla.net/media/img/styleguide/identity/webmaker/usage-logo.png");
+}
+.marketplace{
+  background-image: url("https://mozorg.cdn.mozilla.net/media/img/styleguide/identity/marketplace/usage-logo-bag.png");
+}
+.mdn{
+  background-image: url("http://blog.seanmartell.com/wp-content/uploads/2013/10/logo_0014_80.png");
+}
+.marketplace{
+  background-image: url("https://mozorg.cdn.mozilla.net/media/img/styleguide/identity/marketplace/usage-logo-bag.png");
+}
+#item #title {
+  position: absolute;
+  top: 0;
+  right: 84px;
+  line-height: 64px;
+  color: white;
+  font-family: 'Droid Arabic Kufi', serif;
+  font-size: 25px;
+}
+/* progress stuff */
+
+.progress {
+  overflow: hidden;
+  padding: 0 15px;
+  width: 220px;
+  height: 34px;
+  background: #d3d5d9;
+  border-radius: 1px;
+  background-color: #ebecef;
+  position: absolute;
+  top: 18px;
+  left: 100px;
+}
+.progress-val {
+  float: right;
+  margin-left: 15px;
+  font: bold 15px/34px Helvetica, Arial, sans-serif;
+  color: #333;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.6);
+}
+.progress-bar {
+  display: block;
+  overflow: hidden;
+  height: 8px;
+  margin: 13px 0;
+  background: #b8b8b8;
+  border-radius: 1px;
+}
+.progress-in {
+  display: block;
+  min-width: 8px;
+  height: 8px;
+  background: #1997e6;
+  border-radius: 1px;
 }
