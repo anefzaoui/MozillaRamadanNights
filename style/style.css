@@ -1,4 +1,5 @@
-html,body{
+html,
+body {
   margin: 0;
   padding: 0;
   font-size: 13px;
@@ -6,9 +7,14 @@ html,body{
   color: #333;
   font-family: 'Helvetica Neue', Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif;
 }
-
-#wrapper{
+#outer-wrapper {
+  position: relative;
+  border-top: 2px solid #FFF;
+  background: url('bg-gradient-sand.png') repeat-x scroll 0% 0%, url('bg-sand.png') repeat scroll 0% 0%, none repeat scroll 0% 0% #F5F1E8;
+}
+#wrapper {
   width: 900px;
   display: block;
   margin: 0 auto;
+  height:900px;
 }
