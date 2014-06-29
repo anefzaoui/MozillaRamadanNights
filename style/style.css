@@ -81,6 +81,19 @@ body {
   font-family: 'Droid Arabic Kufi', serif;
   font-size: 25px;
 }
+#call-to-action{
+  position: absolute;
+  top: 0;
+  left: 54px;
+  line-height: 64px;
+  color: white;
+  font-family: 'Droid Arabic Kufi', serif;
+  font-size: 25px;
+  text-decoration: none;
+}
+#call-to-ation:hover{
+  text-decoration: underline;
+}
 /* progress stuff */
 
 .progress {
@@ -93,7 +106,7 @@ body {
   background-color: #ebecef;
   position: absolute;
   top: 18px;
-  left: 100px;
+  left: 200px;
 }
 .progress-val {
   float: right;
@@ -116,4 +129,18 @@ body {
   height: 8px;
   background: #1997e6;
   border-radius: 1px;
+}
+
+#event-details-1{
+  background-color: #C1423D;
+  width: 100%;
+  display: block;
+  padding: 10px 0;
+}
+
+#event-details-1 p{
+  color: white;
+  color: white;
+  font-family: 'Droid Arabic Kufi', serif;
+  font-size: 25px;
 }
