@@ -87,8 +87,9 @@ body {
 .mdn {
   background-image: url("http://blog.seanmartell.com/wp-content/uploads/2013/10/logo_0014_80.png");
 }
-.marketplace {
-  background-image: url("https://mozorg.cdn.mozilla.net/media/img/styleguide/identity/marketplace/usage-logo-bag.png");
+.appmaker {
+  background-image: url("appmaker_logo.png");
+  background-size: auto 64px !important;
 }
 #item #title {
   position: absolute;
@@ -98,6 +99,9 @@ body {
   color: white;
   font-family: 'Droid Arabic Kufi', serif;
   font-size: 25px;
+}
+.appmaker #title{
+  right: 210px !important;
 }
 #call-to-action {
   position: absolute;
