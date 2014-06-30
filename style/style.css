@@ -79,13 +79,13 @@ body {
   border-radius: 6px;
 }
 .webmaker {
-  background-image: url("https://mozorg.cdn.mozilla.net/media/img/styleguide/identity/webmaker/usage-logo.png");
+  background-image: url("usage-logo.png");
 }
 .marketplace {
-  background-image: url("https://mozorg.cdn.mozilla.net/media/img/styleguide/identity/marketplace/usage-logo-bag.png");
+  background-image: url("usage-logo-bag.png");
 }
 .mdn {
-  background-image: url("http://blog.seanmartell.com/wp-content/uploads/2013/10/logo_0014_80.png");
+  background-image: url("logo_0014_80.png");
 }
 .appmaker {
   background-image: url("appmaker_logo.png");
