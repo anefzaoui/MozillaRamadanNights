@@ -176,6 +176,7 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   position: relative;
+  margin: 0 5px;
 }
 #event-details-1 #dashboard #sharing-element #title {
   color: white;
@@ -193,6 +194,6 @@ body {
 .evt-twitter {
   background-image: url("Twitter-Flat.png");
 }
-.evt-irc {
-
+.evt-googleplus {
+  background-image: url("Googleplus-Flat.png");
 }
